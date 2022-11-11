@@ -12,9 +12,9 @@
         <h1>DSPlayGames</h1>
         <nav>
             <ul>
-                <li><a href="news">Notícias</a> </li>
-                <li><a href="games">Jogos</a></li>
-                <li><a href="signup">Increva-se</a> </li>
+                <li><a href="#news">Notícias</a> </li>
+                <li><a href="#games">Jogos</a></li>
+                <li><a href="#signup">Increva-se</a> </li>
             </ul>
             <img src="img/user.png" alt="Imagem de usuário">
         </nav>
@@ -59,7 +59,7 @@
                 </div>
                 <div>
                     <h4>Horizon Forbidden West</h4>
-                    <p><span>De</span>Sony Interactive Entertainment</p>
+                    <p><span>De</span> Sony Interactive Entertainment</p>
                     <div>
                         <p>9.7</p>
                     </div>
@@ -114,12 +114,40 @@
                     <input type="email" name="nome" placeholder="Email"><br>
 
                     <label for="plataform">Qual sua palataforma preferida?</label>
-                    <input type="radio" name="" id="plataform">
+                        <div id="plataform">
+                            <input type="radio" name="plataform" id="pc">
+                            <label for="pc">PC</label>
+
+                            <input type="radio" name="plataform" id="xbox">
+                            <label for="xbox">Xbox</label>
+
+                            <input type="radio" name="plataform" id="playstation">
+                            <label for="playstation">Play Station</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="latest" id="latest">
+                            <label for="latest">Desejo receber novidades</label>
+                        </div>
+                            <div>
+                            <input type="submit" value="Enviar">
+
+                            <input type="reset" value="Limpar">
+                         </div>
                 </form>
             </div>
-
         </section>
     </main>
-    
+
+    <footer>
+        <address>@dsplaygames<br>/dsplaygames
+        </address>
+        <div>
+            <p>DS Play Games Ltda. Todos direitos reservados</p>
+        </div>
+        <div>
+            <p>Política de privacidade</p>
+            <p>Política de privacidade</p>
+        </div>
+    </footer>
 </body>
 </html>
